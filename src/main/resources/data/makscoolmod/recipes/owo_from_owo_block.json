@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "makscoolmod:owo_block"
+    }
+  ],
+  "result": {
+    "item": "makscoolmod:owo",
+    "count": 9
+  }
+}

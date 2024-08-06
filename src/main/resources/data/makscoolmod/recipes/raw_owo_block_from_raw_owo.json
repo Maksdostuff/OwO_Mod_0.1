@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "makscoolmod:raw_owo"
+    }
+  },
+  "result": {
+    "item": "makscoolmod:raw_owo_block"
+  }
+}
