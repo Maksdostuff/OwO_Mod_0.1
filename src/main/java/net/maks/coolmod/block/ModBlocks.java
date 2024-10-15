@@ -1,6 +1,7 @@
 package net.maks.coolmod.block;
 
 import net.maks.coolmod.MaksCoolMod;
+import net.maks.coolmod.block.Custom.SoundBlock;
 import net.maks.coolmod.item.ModItems;
 import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -24,6 +25,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OWO_BLOCK = registerBlock("owo_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> RAW_OWO_BLOCK = registerBlock("raw_owo_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.TUFF).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> OWO_ORE = registerBlock("owo_ore",

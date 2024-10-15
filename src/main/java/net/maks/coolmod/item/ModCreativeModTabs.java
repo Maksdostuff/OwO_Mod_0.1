@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.OWO_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_OWO_BLOCK.get());
                         pOutput.accept(ModBlocks.OWO_ORE.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
